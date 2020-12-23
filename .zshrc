@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 [ -f ~/.zprofile ] && source ~/.zprofile
 
 # If you come from bash you might have to change your $PATH.
