@@ -10,6 +10,8 @@ brew update
 brew upgrade
 brew bundle --file .brewfile
 
+nvm install --lts
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 rsync --exclude ".git/" \

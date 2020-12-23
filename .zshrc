@@ -106,3 +106,5 @@ source $ZSH/oh-my-zsh.sh
 chuck_cow
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+nvm use --lts
